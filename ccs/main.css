@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rubik+Dirt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;  
+    list-style: none;
+}
+
+body{
+    
+    background-image: url(../img/edit\ fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    
+    
+}
+
+#GBz{
+    display: inline-block;
+    font-family: 'Rubik Dirt', cursive,'Fjalla One', sans-serif;
+    font-size: 96px;
+    color: rgb(204, 204, 204);
+}
+
+.links{
+    margin: 2%;
+}
+
+.links li{
+    display: inline-block;
+    font-family: 'Rubik Dirt', cursive,'Fjalla One', sans-serif;
+    font-size: 48px;
+    
+}
+
+.links ul{
+    float: right;
+}
+
+a{   
+    margin: 25px;
+    color: rgb(204, 204, 204);
+}
+
+.textH {
+    color: rgb(204, 204, 204);
+    font-family: 'Rubik Dirt', cursive,'Fjalla One', sans-serif;
+    margin: 360px  0 360px 215px;
+}
+
+.textH h1{
+    font-size: 120px;
+    
+}
+
+svg{
+    width: 530px;
+    height: 10px;
+    display: inline-flexbox;
+}
+
+.textH p{
+    font-size: 36px;
+}

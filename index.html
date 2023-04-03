@@ -4,45 +4,154 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Good Boyz</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' type='text/css' media='screen' href='ccs/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='ccs/break.css'>
+    
     
 </head>
 <body>
     
+
+    <!--La funete no tiene que ser en mayuscula y las misma no contiene carateres especiales como la "ñ" o la tilde -->
+    
+
     <header>
         
-        <nav class="links">
-            
-            <h1 id="GBz">Good Boyz</h1>
+       
 
-            <ul>
-                <li><a href="">Nosotros</a></li>
-                <li><a href="">Trabajos</a></li>
-                <li><a href="">Contacto</a></li>
+        <nav class="links">
+            <img id="logo-gbz" src="img/Logos.png" alt="">
+            <h1 id="GBz">GOOD BOYZ MC</h1>
+
+            <ul class="topnav" id="myTopnav">
+                <li class="active"><a href="#us" >NOSOTROS</a></li>
+                <li><a href="#workImg">TRABAJOS</a></li>
+                <li><a href="#contacts">CONTACTO</a></li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <div class="icon-menu" onclick="closeFuction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </a>
             </ul>
+
             
         </nav>
 
         <div class="textH">
-            <h1>Diseño y soluciones<br>graficas</h1>
+            <h1>DISEÑO Y SOLUCIONES<br>GRAFICAS</h1>
             <svg>
                 <rect width="530" height="10px" style="fill:rgb(204,204,204)" />
             </svg>
             
-            <p>La unión entre el mundo custom de los MC, el diseño y<br> la impresión profesional de cualquier tipo de material<br> gráfico.</p>
+            <p>LA UNION ENTRE EL MUNDO CUSTOM DE LOS MC, EL DISEÑO Y<br> LA IMPRESION PROFESIONAL DE CUALQUIER TIPO DE MATERIAL<br> GRAFICO.</p>
         </div>
  
     </header>
 
     <main>
-        
+        <div class="works" id="workImg">
+
+            <h1>TRABAJOS</h1>
+
+            <div class="img-conteiner" item-display-d="3">
+                <div class="slider-conteiner">
+                    <div class="slider-img">
+                        <div class="img-div"></div>
+                    </div>
+
+                    <div class="slider-img">
+                        <div class="img-div"></div>
+                    </div>
+
+                    <div class="slider-img">
+                        <div class="img-div"></div>
+                    </div>
+
+                    <div class="slider-img">
+                        <div class="img-div"></div>
+                    </div>
+
+                    <div class="slider-img">
+                        <div class="img-div"></div>
+                    </div>
+
+                    <div class="slider-img">
+                        <div class="img-div"></div>
+                    </div>
+                </div>
+            </div>
+                        
+        </div>
+
+        <div class="about" id="us">
+
+            <div class="textA">
+                <h1>¿QUIENES SOMOS?</h1>
+
+                <p>SOMOS SOLUCIONES DE DISEÑO E IMPRESION, CARGADOS DE IMPRONTA, REBELDIA, FIERROS, ROCK N' ROLL Y TE BRINDAMOS ESA MISMA ONDA, PONIENDOLA A DISPOSICION DE TUS NECESIDADES GRAFICAS.<br>QUEREMOS LLEVAR LA IDEA DE LA PERSONALIZACION A TU ESTILO, TU NEGOCIO, TU CUARTO, TU EMPRENDIMIENTO A UNA REALIDAD TANGIBLE Y CON LA MERJOR CALIDAD.</p>
+
+                <div class="infoImg1">
+                    <div class="imgDuo">
+                        <div class="img-cont">
+                            
+                        </div>
+                    </div>
+    
+                    <div class="imgDuo">
+                        <div class="img-cont">
+                            
+                        </div>
+                </div>
+
+            </div>
+            
+
+            <div class="textA">
+                <h1>¿QUE OFRECEMOS?</h1>
+                <p>! SOLUCIONES DE DISEÑO E IMPRESION !<br>¿QUE QUIERE DECIR ESO?<br>QUE TENESMOS EL CONOCIMIENTO Y LA MAQUINARIA PARA LLEVAR A LA REALIDAD LO QUE QUIERAS. PRINCIPALMENTE NOS DEDICAMOS A PRODUCCIONES GRAFICAS, STICKERS, PLOTTEOS DE GRAN TAMAÑO, LONAS. CARTELERIA, TARJETAS PERSONALES, AMBIENTACIONES, ECT.<br>AHI ESTA NUESTRO FUERTE, LO QUE NOSOTROS APODAMOS "EL CUSTOM" DE AHI VIENE NUESTRA IMPROTA Y NUESTRO ESTILO TIPO CLUB DE MOTOCICLETA, LO QUE NECESITE LO VAMOS A TRABAJAR INVIDUALMENTE CON VOS Y BUSCAR UNA FORMA DE HACERLO REALIDAD Y NOS ENORGULLECE "ENCONTRARLE LA VUELTA" A ESO QUE PENSAS ES MUY CARO O MUY COMPLICADO DE HACER</p>
+
+                <div class="infoImg1">
+                    <div class="imgDuo">
+                        <div class="img-cont">
+                            
+                        </div>
+                    </div>
+    
+                    <div class="imgDuo">
+                        <div class="img-cont">
+                        </div>
+                </div>
+
+            </div>
+            
+        </div>
         
     </main>
 
     <footer>
-      
+
+       <h1 id="contacts">CONTACTO</h1> 
+
+      <div class="form">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </div>
     </footer>
 
+    <script type="text/javascript" src="js/main.js"></script>
+   
 </body>
 </html>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 @font-face {
     font-family: 'Louisiana Biker Shop';
     src: url(../fonts/Louisiana\ Biker\ Shop.otf) format('truetype');
@@ -52,7 +53,6 @@ body{
     font-family: 'Louisiana Biker Shop','Rubik Dirt', sans-serif;
     font-size: 48px;
     margin-bottom: 25px;
-    border-bottom: rgba(204, 204, 204, 0.747) solid;
 }
 
 .links ul{
@@ -203,7 +203,6 @@ main{
 
 .img-div:hover{
     transform: scale(1.5);
-    opacity: 0.6;
 }
 
 /*About*/
@@ -282,13 +281,17 @@ footer p{
     font-weight: bold;
     margin: 0 25% 0 25%;
 }
+/*form*/
+form{
+    margin-left: 200px;
+}
 
-
-input[type=text], select, textarea {
+input[type=text], input[type=email], select, textarea {
+    font-family: 'Rubik Dirt', cursive,sans-serif;
     display: block;
     right: 0;
     font-size: 36px;
-    width: 25%; 
+    width: 30%; 
     margin-bottom: 0.5%;
     color: rgb(30, 30, 30);
     border: 1px solid #353535; 
@@ -308,6 +311,8 @@ input[type=submit] {
     cursor: pointer;
 
 }
+
+
   
   /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
@@ -327,3 +332,4 @@ input[type=submit]:hover {
     right: 200px;
     float: right;
 }
+

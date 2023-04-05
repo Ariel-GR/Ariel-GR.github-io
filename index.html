@@ -111,7 +111,7 @@
 
             <div class="textA">
                 <h1>¿QUE OFRECEMOS?</h1>
-                <p>! SOLUCIONES DE DISEÑO E IMPRESION !<br>¿QUE QUIERE DECIR ESO?<br>QUE TENESMOS EL CONOCIMIENTO Y LA MAQUINARIA PARA LLEVAR A LA REALIDAD LO QUE QUIERAS. PRINCIPALMENTE NOS DEDICAMOS A PRODUCCIONES GRAFICAS, STICKERS, PLOTTEOS DE GRAN TAMAÑO, LONAS. CARTELERIA, TARJETAS PERSONALES, AMBIENTACIONES, ECT.<br>AHI ESTA NUESTRO FUERTE, LO QUE NOSOTROS APODAMOS "EL CUSTOM" DE AHI VIENE NUESTRA IMPROTA Y NUESTRO ESTILO TIPO CLUB DE MOTOCICLETA, LO QUE NECESITE LO VAMOS A TRABAJAR INVIDUALMENTE CON VOS Y BUSCAR UNA FORMA DE HACERLO REALIDAD Y NOS ENORGULLECE "ENCONTRARLE LA VUELTA" A ESO QUE PENSAS ES MUY CARO O MUY COMPLICADO DE HACER</p>
+                <p>! SOLUCIONES DE DISEÑO E IMPRESION !<br>¿QUE QUIERE DECIR ESO?<br>QUE TENEMOS EL CONOCIMIENTO Y LA MAQUINARIA PARA LLEVAR A LA REALIDAD LO QUE QUIERAS. PRINCIPALMENTE NOS DEDICAMOS A PRODUCCIONES GRAFICAS, STICKERS, PLOTTEOS DE GRAN TAMAÑO, LONAS. CARTELERIA, TARJETAS PERSONALES, AMBIENTACIONES, ECT.<br>AHI ESTA NUESTRO FUERTE, LO QUE NOSOTROS APODAMOS "EL CUSTOM" DE AHI VIENE NUESTRA IMPROTA Y NUESTRO ESTILO TIPO CLUB DE MOTOCICLETA, LO QUE NECESITE LO VAMOS A TRABAJAR INVIDUALMENTE CON VOS Y BUSCAR UNA FORMA DE HACERLO REALIDAD Y NOS ENORGULLECE "ENCONTRARLE LA VUELTA" A ESO QUE PENSAS ES MUY CARO O MUY COMPLICADO DE HACER</p>
 
                 <div class="infoImg1">
                     <div class="imgDuo">
@@ -135,27 +135,27 @@
 
        <h1 id="contacts">CONTACTO</h1> 
 
-      <div class="form">
+        <form action="php/contacto.php">
         
-        <input type="text" id="fname" name="firstname" placeholder="Tu nombre ...">
+            <input type="text" id="fname" name="nombre" placeholder="Tu nombre ..." required>
 
-        <input type="text" id="lname" name="lastname" placeholder="Tu apellido ...">
+            <input type="email" id="mail" name="correo" placeholder="ejemplo@mail.com" required>
         
-        <textarea id="subject" name="Mensaje" placeholder="Escribra su mensaje ..." style="height:200px"></textarea>
+            <textarea id="subject" name="mensaje" placeholder="Escribra su mensaje ..." style="height:200px"  maxlength="600" required ></textarea>
 
-        <input type="submit" value="Submit">
+            <input type="submit" value="Enviar mensaje">
 
-      </div>
+        </form>
 
       <div class="redes">
+        
+        <p style="color: aqua; font-size: 40px;">ver/modificar redes e iconos</p>
         <a href="https://www.instagram.com/goodboyzmc/" class="redesIcon" target="_blank" rel="noopener noreferrer"><img src="img/instagram.png" alt=""></a>
-        <a href="" class="redesIcon"><img src="img/facebook.png" alt=""></a>
-        <a href="" class="redesIcon"><img src="img/whatsapp (1).png" alt=""></a>
         <a href="" class="redesIcon"><img src="img/email.png" alt=""></a>
       </div>
       <p>Creado por Good Boyz Mc © 2023 todos los derechos reservados.</p>
     </footer>
-
+    
     <script type="text/javascript" src="js/main.js"></script>
    
 </body>

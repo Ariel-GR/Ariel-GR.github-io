@@ -21,7 +21,7 @@
        
 
         <nav class="links">
-            <img id="logo-gbz" src="img/Logos.png" alt="">
+            <img id="logo-gbz" src="img/Logos.png"  alt="">
             <h1 id="GBz">GOOD BOYZ MC</h1>
 
             <ul class="topnav" id="myTopnav">
@@ -104,6 +104,7 @@
                         <div class="img-cont">
                             
                         </div>
+                    </div>
                 </div>
 
             </div>
@@ -123,11 +124,13 @@
                     <div class="imgDuo">
                         <div class="img-cont">
                         </div>
+                    </div>
                 </div>
 
             </div>
             
         </div>
+
         
     </main>
 
@@ -135,13 +138,13 @@
 
        <h1 id="contacts">CONTACTO</h1> 
 
-        <form action="php/contacto.php">
+        <form action="php/contacto.php" method="post">
         
-            <input type="text" id="fname" name="nombre" placeholder="Tu nombre ..." required>
+            <input type="text"  name="nombre" placeholder="Tu nombre ..." required>
 
-            <input type="email" id="mail" name="correo" placeholder="ejemplo@mail.com" required>
+            <input type="email"  name="correo" placeholder="ejemplo@mail.com" required>
         
-            <textarea id="subject" name="mensaje" placeholder="Escribra su mensaje ..." style="height:200px"  maxlength="600" required ></textarea>
+            <textarea  name="mensaje" placeholder="Escribra su mensaje ..." style="height:200px"  maxlength="600" required ></textarea>
 
             <input type="submit" value="Enviar mensaje">
 
@@ -149,7 +152,6 @@
 
       <div class="redes">
         
-        <p style="color: aqua; font-size: 40px;">ver/modificar redes e iconos</p>
         <a href="https://www.instagram.com/goodboyzmc/" class="redesIcon" target="_blank" rel="noopener noreferrer"><img src="img/instagram.png" alt=""></a>
         <a href="" class="redesIcon"><img src="img/email.png" alt=""></a>
       </div>

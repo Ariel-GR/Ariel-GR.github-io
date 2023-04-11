@@ -3,11 +3,7 @@
 
     
 /*cabecera*/
-#GBz{
-    font-size: 76px;
-    top: 20%;
-    
-}
+
 
     /*nav bar*/
 
@@ -15,19 +11,12 @@
     font-size: 38px; 
 }
 
-.textH {
-    margin: 100px 0 0px 80px;
-}
 
 .icon-menu{
     display: none;
 }
 
-.textA p{
-    left: 55%;
-    padding: 1%;
-    
-}
+
 
 }
 

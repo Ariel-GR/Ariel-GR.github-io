@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/logo\ y\ fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+h1{
+    font-size: 48px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(204, 204, 204);
+    margin: 5%;
+}
+
+p{
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(204, 204, 204);
+    margin: 1%;
+}
+
+a{
+    color: rgb(204, 204, 204);
+    font-weight: bolder;
+}
+
+a:hover{
+    font-size: 48px;
+    color: red;
+}

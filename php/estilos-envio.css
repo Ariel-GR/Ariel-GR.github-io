@@ -1,11 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@font-face {
+    font-family: 'Louisiana Biker Shop';
+    src: url(../fonts/Louisiana\ Biker\ Shop.otf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: 'JMH Typewriter Dry';
+    src: url(../fonts/JMH\ Typewriter\ dry-Thin.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'JMH Typewriter Dry',sans-serif;
+    font-weight: bolder;
 }
 
 body{
-    background-image: url(../img/logo\ y\ fondo.png);
+    background-image: url(../img/logo\ +\ fondo\ comprimido.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,27 +32,26 @@ body{
     
 }
 h1{
-    font-size: 48px;
+    font-size: 56px;
     text-align: center;
-    font-weight: bolder;
-    color: rgb(204, 204, 204);
+    
+    color: rgb(202, 202, 202);
     margin: 5%;
 }
 
 p{
-    font-size: 32px;
-    font-weight: bolder;
+    font-size: 48px;
+    
     text-align: center;
     color: rgb(204, 204, 204);
-    margin: 1%;
 }
 
 a{
     color: rgb(204, 204, 204);
-    font-weight: bolder;
+    
 }
 
 a:hover{
-    font-size: 48px;
+    background-color: rgba(36, 36, 36, 0.507);
     color: red;
 }

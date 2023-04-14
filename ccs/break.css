@@ -16,6 +16,9 @@
     display: none;
 }
 
+#logo-gbz{
+    width: 450px;
+}
 
 
 }
@@ -24,9 +27,15 @@
 
 /*tablet*/
 @media screen and (max-width:1390px){
-    .textH h1 {
-        font-size: 76px;
-        margin: 0;
+
+
+
+    .textH{
+        position: absolute;
+        display: block;
+        left: 50%;
+        width: 960px;
+        
     }
 
     .icon-menu{
@@ -36,10 +45,6 @@
     .links li{
         margin-bottom: 25px;
         border-bottom: rgba(204, 204, 204, 0.747) solid;
-    }
-
-    #GBz{
-        display: none;
     }
 
     body{
@@ -62,9 +67,7 @@
 /*smartphone*/
 @media screen and (max-width:920px) {
 
-    #GBz{
-        display: none;
-    }
+    
     .links li{
         display: none;
         margin-bottom: 25px;
@@ -121,11 +124,10 @@
         text-align: center;
     }
     
-
-    .textH p{
-        font-size: 26px;
-        margin-bottom: 166px ;
+    .textH{
+        left: 80%;
     }
+
 
     body{
         width: 200%;
@@ -135,7 +137,7 @@
 
 }
 
-@media screen and (max-width:520px){
+@media screen and (max-width:425px){
 
     .topnav{
         position: absolute;
@@ -151,18 +153,17 @@
         display: inline-block;
     }
 
-    #GBz{
-        display: none;
+    #logo-gbz{
+        position: relative;
+        width: 500px;
+        left: 25%;
     }
-    
+
     .textH{
-        margin: 50px 0 0 80px;
+        position: relative;
+        left: 15%;
+        display: block;
     }
-
-    .textH p{
-        margin: 0 150px 150px 0;
-    }
-
     .links li{
         margin-bottom: 25px;
         border-bottom: rgba(204, 204, 204, 0.747) solid ;

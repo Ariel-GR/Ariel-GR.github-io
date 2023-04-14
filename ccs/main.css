@@ -161,7 +161,7 @@ a:hover{
 
 .imgDuo:hover{
     position: absolute;
-    transform: scale(1.05);
+    transform: scale(1.5);
     z-index: 2;
 
 }
@@ -182,11 +182,40 @@ a:hover{
 /*Galeria de imagenes*/
 .img-container{
     display: inline;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
 }
 .img-container img{
     width: 350px;
     height: auto;
+    cursor: pointer;
+}
+
+.text-container{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 0;
+    display: inline-block;
+    background-color: hsla(0, 0%, 12%, 0.620);
+    opacity: 0;
+    cursor: pointer; 
+}
+
+.text-container:hover{
+    opacity: 1;
+}
+
+h3{
+    position: relative;
+    top: 30%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 42px;
+    cursor: pointer;
     
+
 }
 
 /*Form*/
@@ -194,7 +223,7 @@ a:hover{
 
 footer{
     background-color: hsla(0, 0%, 0%, 0.760);
-    background-size: cover; 
+    background-size: cover;
     padding: 2.5%;
 }
 

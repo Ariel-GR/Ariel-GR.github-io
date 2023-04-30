@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
 @font-face {
     font-family: 'Louisiana Biker Shop';
-    src: url(../fonts/Louisiana\ Biker\ Shop.otf) format('truetype');
+    src: url(../fonts/LouisianaBikerShop.otf);
     font-style: normal;
     font-weight: normal;
 
@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'JMH Typewriter Dry';
-    src: url(../fonts/JMH\ Typewriter\ dry-Thin.otf);
+    src: url(../fonts/JMHTypewriter.otf);
     font-style: normal;
     font-weight: normal;
 }
@@ -20,7 +20,7 @@
     box-sizing: border-box;
     text-decoration: none;  
     list-style: none;
-    font-family: 'JMH Typewriter Dry';
+    font-family: 'JMH Typewriter Dry',sans-serif;
     color: rgb(204, 204, 204);
 }
 
@@ -68,12 +68,14 @@ header{
     margin-top: 10%;
     text-align: center;
     font-size: 36px;
+    font-family: 'JMH Typewriter Dry',sans-serif;
     
 }
 
 .textH p{
     font-size: 20px;
     text-align: center;
+    font-family: 'JMH Typewriter Dry',sans-serif;
 }
 
 
@@ -96,7 +98,7 @@ header{
 a{   
     color: rgb(204, 204, 204);
     margin-left: 20px;
-    
+    font-family: 'JMH Typewriter Dry',sans-serif;
 }
 
 a:hover{
@@ -122,6 +124,7 @@ a:hover{
 .textA h1{
     font-size: 96px;
     margin-bottom: 5%;
+    font-family: 'JMH Typewriter Dry',sans-serif;
 }
 
 .textA p{
@@ -130,6 +133,7 @@ a:hover{
     left: 50%;
     padding: 0 15% 0 0;
     font-size: 32px;
+    font-family: 'JMH Typewriter Dry',sans-serif;
 }
 
 .infoImg1{
@@ -177,6 +181,7 @@ a:hover{
 .works h1{
     font-size: 96px;
     padding:50px 0 0 0;
+    font-family: 'JMH Typewriter Dry',sans-serif;
 }
 
 /*Galeria de imagenes*/
@@ -214,8 +219,7 @@ h3{
     font-weight: lighter;
     font-size: 42px;
     cursor: pointer;
-    
-
+    font-family: 'JMH Typewriter Dry',sans-serif;
 }
 
 /*Form*/
@@ -248,7 +252,8 @@ form{
 input[type=text], input[type=email], select, textarea {
     display: block;
     right: 0;
-    font-size: 36px;
+    font-size: 27px;
+    font-family: 'JMH Typewriter Dry',sans-serif;
     width: 30%; 
     margin-bottom: 0.5%;
     color: rgb(30, 30, 30);
@@ -256,11 +261,13 @@ input[type=text], input[type=email], select, textarea {
     border-radius: 4px; 
     box-sizing: border-box;  
     resize: vertical;
+
 }
   
   /* Style the submit button with a specific background color etc */
 input[type=submit] {
     font-size: 36px;
+    font-family: 'JMH Typewriter Dry',sans-serif;
     background-color: #000000e7;
     color: rgb(204, 204, 204);
     padding: 12px 20px;
@@ -270,13 +277,10 @@ input[type=submit] {
 
 }
 
-
-  
   /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: rgb(30, 30, 30);
 }
-
 
 .redesIcon img{
     width: 75px;
@@ -291,3 +295,11 @@ input[type=submit]:hover {
     float: right;
 }
 
+.redes p{
+    font-size: 32px;
+    position: relative;
+    bottom: 370px;
+    left: 275px;
+    
+
+}

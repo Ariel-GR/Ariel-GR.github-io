@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'Louisiana Biker Shop';
+    src: url(../fonts/LouisianaBikerShop.otf);
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: 'JMH Typewriter Dry';
+    src: url(../fonts/JMHTypewriter.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;  
+    list-style: none;
+    font-family: 'JMH Typewriter Dry',sans-serif;
+    color: rgb(204, 204, 204);
+}
+
 /*Pc*/
 @media screen and (max-width:1820px) {
 
